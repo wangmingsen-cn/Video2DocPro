@@ -1,0 +1,19 @@
+# Video2DocPro - Requirements
+# Python 3.8+ required
+
+# Core dependencies
+PyQt6>=6.0.0
+
+# Video processing
+imageio-ffmpeg>=0.4.0
+Pillow>=8.0.0
+
+# Speech recognition (install separately for best performance)
+# pip install openai-whisper
+
+# Optional: for advanced AI features
+# openai>=1.0.0
+# requests>=2.25.0
+
+# Note: whisper and torch are NOT included in the EXE package
+# They will be loaded from the user's Python environment
